@@ -21,8 +21,8 @@ public class Produto {
 		return nome
 				+ ", R$ "
 				+ String.format("%.2f", preco)
-				+ ", "
-				+ quantidade
+				+ ", teste "
+				+ quantidade 
 				+ " unidades, Total: R$ "
 				+ String.format("%.2f", totalEmEstoque());
 	}
